@@ -1,0 +1,27 @@
+Region:          Moscow, Vladivostok
+Purpose:         new development, secondary market, finished house, construction of a residential building(IHC), construction of a residential building(214FL), land plot, parking space, pantry, commercial space
+Type:            Base, Family, IT, Distant land, Military
+Value:           0.75, 1, 2, 5, 10, 150, 200
+Initial payment: 0, 20, 30, 40, 50, 60, 70
+Loan term:       0, 1, 5, 10, 20, 30
+Verify Income:   -, on, off
+
+if [Region] = "Moscow" then [Type] in {"Base", "Family", "Military"};
+
+if [Type] = "Family" then [Purpose] in {"new development", "secondary market", "finished house", "construction of a residential building(IHC)", "construction of a residential building(214FL)"};
+if [Type] = "IT" then [Purpose] in {"new development", "secondary market", "finished house", "construction of a residential building(IHC)", "construction of a residential building(214FL)"};
+if [Type] = "Military" then [Purpose] in {"new development", "secondary market", "finished house"};
+if [Type] = "Distant land" then [Purpose] in {"new development", "secondary market","finished house", "construction of a residential building(214FL)"};
+
+if [Type] = "Base" then [Verify income] in {"on", "off"} else [Verify income] = "-";
+if [Verify income] = "off" then [Initial payment] >= 40;
+
+if [Type] = "Military" then [Initial payment] = 0 and [Loan term] = 0 else [Initial payment] > 0 and [Loan term] > 0;
+
+if [Purpose] = "pantry" and [Region] = "Moscow" then [Initial payment] >= 40;
+if [Purpose] = "pantry" and [Region] = "Vladivostok" then [Initial payment] >= 60;
+if [Purpose] = "commercial space" then [Initial payment] >= 50;
+
+if [value] = 150 then [Initial payment] >= 40;
+if [value] = 200 then [Initial payment] >= 50;
+
