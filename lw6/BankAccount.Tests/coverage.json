@@ -1,0 +1,326 @@
+{
+  "BankAccount.dll": {
+    "D:\\Study\\Quality Control\\lw66\\BankAccount\\BankAccount.cs": {
+      "BankAccount.BankAccount": {
+        "System.Decimal BankAccount.BankAccount::get_Balance()": {
+          "Lines": {
+            "25": 71
+          },
+          "Branches": []
+        },
+        "System.String BankAccount.BankAccount::get_Tier()": {
+          "Lines": {
+            "26": 43
+          },
+          "Branches": []
+        },
+        "System.Boolean BankAccount.BankAccount::get_IsFrozen()": {
+          "Lines": {
+            "27": 51
+          },
+          "Branches": []
+        },
+        "System.Void BankAccount.BankAccount::Deposit(System.Decimal)": {
+          "Lines": {
+            "37": 3,
+            "38": 3,
+            "39": 1,
+            "40": 2,
+            "41": 1,
+            "43": 1,
+            "44": 1
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 40,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 35,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void BankAccount.BankAccount::Withdraw(System.Decimal)": {
+          "Lines": {
+            "47": 10,
+            "48": 10,
+            "49": 1,
+            "50": 9,
+            "51": 2,
+            "53": 7,
+            "55": 7,
+            "56": 1,
+            "58": 6,
+            "60": 6,
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 6
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            },
+            {
+              "Line": 50,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 50,
+              "Offset": 35,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 7
+            },
+            {
+              "Line": 55,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 90,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6
+            },
+            {
+              "Line": 60,
+              "Offset": 138,
+              "EndOffset": 140,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 60,
+              "Offset": 138,
+              "EndOffset": 160,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 165,
+              "EndOffset": 167,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 165,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void BankAccount.BankAccount::UpgradeTier(System.String)": {
+          "Lines": {
+            "67": 5,
+            "68": 5,
+            "69": 1,
+            "70": 4,
+            "71": 1,
+            "73": 3,
+            "74": 3,
+            "75": 1,
+            "77": 2,
+            "78": 2,
+            "79": 2,
+            "80": 2
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 70,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 70,
+              "Offset": 38,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 74,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 74,
+              "Offset": 79,
+              "EndOffset": 126,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 78,
+              "Offset": 145,
+              "EndOffset": 147,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 78,
+              "Offset": 145,
+              "EndOffset": 154,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void BankAccount.BankAccount::FreezeAccount()": {
+          "Lines": {
+            "83": 6,
+            "84": 6,
+            "85": 6
+          },
+          "Branches": []
+        },
+        "System.Void BankAccount.BankAccount::UnfreezeAccount(System.String)": {
+          "Lines": {
+            "88": 2,
+            "89": 2,
+            "90": 1,
+            "91": 1,
+            "92": 1
+          },
+          "Branches": [
+            {
+              "Line": 89,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 89,
+              "Offset": 14,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Decimal BankAccount.BankAccount::GetAvailableFunds()": {
+          "Lines": {
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1
+          },
+          "Branches": []
+        },
+        "System.Void BankAccount.BankAccount::.ctor(System.Decimal,System.String)": {
+          "Lines": {
+            "29": 23,
+            "30": 23,
+            "31": 23,
+            "32": 23,
+            "33": 23,
+            "34": 23
+          },
+          "Branches": []
+        },
+        "System.Void BankAccount.BankAccount::.cctor()": {
+          "Lines": {
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
